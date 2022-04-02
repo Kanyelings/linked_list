@@ -1,11 +1,13 @@
 package com.mofirojean;
 // This Java Program implements a linked list using a Java Interface
-interface linkedListSnip{
-    // write code here
+public interface linkedListSnip{
+    public int size();
+    public boolean isEmpty();
+    public int first();
+    public int last();
+    public int addFirst();
+    public int addLast();
+    public int removeFirst();
 }
-public class Main {
 
-    public static void main(String[] args) {
-	// write your code here
-    }
-}
+
