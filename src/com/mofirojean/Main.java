@@ -1,13 +1,7 @@
 package com.mofirojean;
-// This Java Program implements a linked list using a Java Interface
-public interface linkedListSnip{
-    public int size();
-    public boolean isEmpty();
-    public int first();
-    public int last();
-    public int addFirst();
-    public int addLast();
-    public int removeFirst();
+
+// This java class is for texting our linked list
+public class Main {
+    // first create an object of the class before testing
+
 }
-
-
