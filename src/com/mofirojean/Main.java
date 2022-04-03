@@ -1,13 +1,12 @@
-package com.mofirojean;
-// This Java Program implements a linked list using a Java Interface
-public interface linkedListSnip{
-    public int size();
-    public boolean isEmpty();
-    public int first();
-    public int last();
-    public int addFirst();
-    public int addLast();
-    public int removeFirst();
-}
+// Driver Code
+public static void Main(String[] args) {
+  Delinlist head = null;
+  Delinlist second = null;
+  Delinlist third = null;
 
+  // Allocate 3 nodes in
+  // the heap
+  head = new Node();
+  second = new Node();
+  third = new Node();
 
