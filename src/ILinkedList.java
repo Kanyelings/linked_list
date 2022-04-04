@@ -7,3 +7,4 @@ public interface ILinkedList {
     public void addLast();
     public String remove();
 }
+
