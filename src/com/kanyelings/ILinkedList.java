@@ -1,3 +1,5 @@
+package com.kanyelings;
+
 public interface ILinkedList {
     public int size();
     public boolean isEmpty();
