@@ -1,10 +1,14 @@
 package com.kanyelings;
 
 public class LinkedListImpl implements ILinkedList{
+    int size = 0;   // size of the linked list
+    Node head;      // points the head of the linked list
+    Node tail;      // points the tail
+
     @Override
     // access methods
     public int size() { // returns the number of elements in the list
-        return 0;
+        return size;
     }
 
     @Override
