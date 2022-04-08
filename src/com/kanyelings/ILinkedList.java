@@ -1,11 +1,13 @@
 package com.kanyelings;
 
 public interface ILinkedList {
-    public int size();
-    public boolean isEmpty();
-    public String first();
-    public String last();
-    public void addFirst();
-    public void addLast();
-    public String remove();
+  int size();
+  void addFirst(String value);
+  void addLast(String value);
+  String removeFirst();
+  void show();
+  boolean isEmpty();
+  String first();
+  String last();
+  void insert(int index, String value);
 }
