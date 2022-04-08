@@ -42,6 +42,24 @@ public class LinkedListImpl implements ILinkedList{
   }
 
   @Override
+    public void remove(String value) {
+        Node node = head;
+        Node temp1;   // temporal store for a node
+        Node temp2;   // temporal store for a node
+        while(node != null) {    // Going Through the nodes of the linked list
+            if (node.next.data.equals(value)) {     // checks if The next node is the one to be deleted
+                temp1 = node;     // Storing current node in temp1
+                temp2 = node.next.next;     // Storing the next note after the node to be deleted in temp2
+                node.next = null;      // Detaching the note to be removed
+                temp1.next = temp2;     // Replacing the removed node with the next note
+                node = temp2;
+                size--;
+            }
+            node = node.next;
+        }
+    }
+
+  @Override
   public void show() {
       Node node = head;
       String[] listShow = new String[size()];

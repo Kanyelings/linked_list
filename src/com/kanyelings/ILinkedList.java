@@ -5,6 +5,7 @@ public interface ILinkedList {
   void addFirst(String value);
   void addLast(String value);
   String removeFirst();
+  void remove(String value);
   void show();
   boolean isEmpty();
   String first();

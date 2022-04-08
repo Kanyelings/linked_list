@@ -24,6 +24,8 @@ public class Main {
        list.addLast("Samuel");
        list.insert(1, "John");
        list.show();
+       list.remove("David");
+       list.show();
 
     }
 }
