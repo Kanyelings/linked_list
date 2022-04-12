@@ -7,7 +7,7 @@ Write an interface for the LinkedList data structure following the methods state
 This assignment was given to us by [Elroy Kanye](https://github.com/elroykanye), on the 23rd March 2022. The results from this task will show proof of the fact that we have been working. A handshake will mean a good job, and a lot of shouting will mean that a poor job is better than what we're doing. Like right now. So basically, this assignment requires us to create an interface and show how much we understand its use(s) by implementing it in our classes. We had a lot of challenges, and one of them was assigning tasks to ourselves. It was very difficult, since everybody was fighting to comment the code(only), and everybody(again) refrained from doing the interface. Another challenge was fear. Yes fear. Everybody dreamt about the deadline of this task, so we always spent time sharing our fears instead of focusing to finish early.
 ***
 # How to Install and Run this task: 
-For now, we don't know much about running with npm, so we use IntelliJ Idea by forking and cloning to our local repos.
+To realize this project, we made use of IntelliJ Idea by forking and cloning to our local repos.
 ***
 # Participants:
 ## The Kanyelings 2.0 Team
