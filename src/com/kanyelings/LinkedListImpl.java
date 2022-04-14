@@ -28,7 +28,18 @@ public class LinkedListImpl implements ILinkedList{
 
     // update methods
     @Override
-    public void addFirst() {  //adds a new element to the front of the list
+    public void addFirst(String data) {
+        Node node = new Node();   // Create Node class object
+        node.data = data;    // Assign the argument to the data of the node
+
+        if (head != null)   // Condition to check if the exist atleast one node in the linked list
+            node.next = head;   // Making the new node point to the head of the linked list
+        else {
+            tail = node;  // Assigning the new node to the tail
+            tail.next = null;
+        }
+        head = node;   // Making the new node head of linked list
+        size ++ ;   //Increment the size of the linked list
 
     }
 
